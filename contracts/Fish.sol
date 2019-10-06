@@ -9,6 +9,7 @@ import './SafeMath.sol';
  */
 contract Fish  {
     using SafeMath for uint256;
+    uint256 private nonce;
   // Structure FishModel.
     struct FishModel  {
         uint256 Rarity;
@@ -31,23 +32,36 @@ contract Fish  {
     }
 //rarity is selected 
     function Rarity() public view returns(uint256)  {
-        if ((block.gaslimit+block.difficulty+now).mod(100)==0){
+        uint256 rNumber = Rand(1,10);
+        if(rNumber <= 5){
+            return 1;
+        }else if(rNumber <= 8){
+            return 2;
+        }else{
             return 3;
         }
-        if ((block.gaslimit+block.difficulty+now).mod(10)==0){
-            return 2;
-        } else{
-            return 1;
-        }
+        // if ((block.gaslimit+block.difficulty+now).mod(100)==0){
+        //     return 3;
+        // }
+        // if ((block.gaslimit+block.difficulty+now).mod(10)==0){
+        //     return 2;
+        // } else{
+        //     return 1;
+        // }
     }
     function Weight(uint256 _fishRodLevel) public view returns(uint256)  {
-        return _fishRodLevel.add(now.mod((_fishRodLevel*3)-1));
+        return(Rand(1,_fishRodLevel*3));
+        //return _fishRodLevel.add(now.mod((_fishRodLevel*3)-1));
     }
     function Price( uint256 _weight, uint256 _rarity) public pure returns(uint256) {
         return _weight.mul(_rarity);
     }
     function GetDetails() public view returns(uint256,uint256,uint256,bool){
         return(ThisFish.Rarity,ThisFish.Weight,ThisFish.Price,ThisFish.OnOrder);
+    }
+    function Rand(uint256 min, uint256 max) internal returns(uint256){
+        nonce++;
+        return(uint256(keccak256(nonce))%(min+max)-min);
     }
     function GetOrderStatus() public view returns(bool){
         return(ThisFish.OnOrder);
