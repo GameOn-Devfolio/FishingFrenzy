@@ -89,14 +89,14 @@
     "absolutePath": "/E/Hackathon/FishingFrenzy/contracts/FishRod.sol",
     "exportedSymbols": {
       "FishRod": [
-        390
+        404
       ]
     },
-    "id": 391,
+    "id": 405,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 215,
+        "id": 229,
         "literals": [
           "solidity",
           "^",
@@ -109,10 +109,10 @@
       {
         "absolutePath": "/E/Hackathon/FishingFrenzy/contracts/SafeMath.sol",
         "file": "./SafeMath.sol",
-        "id": 216,
+        "id": 230,
         "nodeType": "ImportDirective",
-        "scope": 391,
-        "sourceUnit": 1043,
+        "scope": 405,
+        "sourceUnit": 1057,
         "src": "29:24:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -123,31 +123,31 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 390,
+        "id": 404,
         "linearizedBaseContracts": [
-          390
+          404
         ],
         "name": "FishRod",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 219,
+            "id": 233,
             "libraryName": {
               "contractScope": null,
-              "id": 217,
+              "id": 231,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1042,
+              "referencedDeclaration": 1056,
               "src": "138:8:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$1042",
+                "typeIdentifier": "t_contract$_SafeMath_$1056",
                 "typeString": "library SafeMath"
               }
             },
             "nodeType": "UsingForDirective",
             "src": "132:27:1",
             "typeName": {
-              "id": 218,
+              "id": 232,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "151:7:1",
@@ -159,14 +159,14 @@
           },
           {
             "canonicalName": "FishRod.Rod",
-            "id": 228,
+            "id": 242,
             "members": [
               {
                 "constant": false,
-                "id": 221,
+                "id": 235,
                 "name": "Level",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "187:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -175,7 +175,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 220,
+                  "id": 234,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "187:7:1",
@@ -189,10 +189,10 @@
               },
               {
                 "constant": false,
-                "id": 223,
+                "id": 237,
                 "name": "Power",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "211:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -201,7 +201,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 222,
+                  "id": 236,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "211:7:1",
@@ -215,10 +215,10 @@
               },
               {
                 "constant": false,
-                "id": 225,
+                "id": 239,
                 "name": "CurrentPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "235:20:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -227,7 +227,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 224,
+                  "id": 238,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "235:7:1",
@@ -241,10 +241,10 @@
               },
               {
                 "constant": false,
-                "id": 227,
+                "id": 241,
                 "name": "NextPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "266:17:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -253,7 +253,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 226,
+                  "id": 240,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "266:7:1",
@@ -268,27 +268,27 @@
             ],
             "name": "Rod",
             "nodeType": "StructDefinition",
-            "scope": 390,
+            "scope": 404,
             "src": "165:126:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 232,
+            "id": 246,
             "name": "UsersRod",
             "nodeType": "VariableDeclaration",
-            "scope": 390,
+            "scope": 404,
             "src": "374:38:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
               "typeString": "mapping(address => struct FishRod.Rod)"
             },
             "typeName": {
-              "id": 231,
+              "id": 245,
               "keyType": {
-                "id": 229,
+                "id": 243,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "383:7:1",
@@ -300,18 +300,18 @@
               "nodeType": "Mapping",
               "src": "374:22:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                 "typeString": "mapping(address => struct FishRod.Rod)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 230,
+                "id": 244,
                 "name": "Rod",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 228,
+                "referencedDeclaration": 242,
                 "src": "392:3:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Rod_$228_storage_ptr",
+                  "typeIdentifier": "t_struct$_Rod_$242_storage_ptr",
                   "typeString": "struct FishRod.Rod"
                 }
               }
@@ -321,7 +321,7 @@
           },
           {
             "body": {
-              "id": 282,
+              "id": 296,
               "nodeType": "Block",
               "src": "505:281:1",
               "statements": [
@@ -332,7 +332,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 243,
+                    "id": 257,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -343,34 +343,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 237,
+                          "id": 251,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "519:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 240,
+                        "id": 254,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 238,
+                            "id": 252,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "528:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 239,
+                          "id": 253,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -391,18 +391,18 @@
                         "nodeType": "IndexAccess",
                         "src": "519:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 241,
+                      "id": 255,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "Level",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 221,
+                      "referencedDeclaration": 235,
                       "src": "519:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -414,7 +414,7 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 242,
+                      "id": 256,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -436,18 +436,18 @@
                     }
                   },
                   "falseBody": null,
-                  "id": 279,
+                  "id": 293,
                   "nodeType": "IfStatement",
                   "src": "516:244:1",
                   "trueBody": {
-                    "id": 278,
+                    "id": 292,
                     "nodeType": "Block",
                     "src": "551:209:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 250,
+                          "id": 264,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -458,34 +458,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 244,
+                                "id": 258,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "562:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 247,
+                              "id": 261,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 245,
+                                  "id": 259,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "571:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 246,
+                                "id": 260,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -506,18 +506,18 @@
                               "nodeType": "IndexAccess",
                               "src": "562:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 248,
+                            "id": 262,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "Level",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 221,
+                            "referencedDeclaration": 235,
                             "src": "562:26:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -529,7 +529,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "31",
-                            "id": 249,
+                            "id": 263,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -550,14 +550,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 251,
+                        "id": 265,
                         "nodeType": "ExpressionStatement",
                         "src": "562:30:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 258,
+                          "id": 272,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -568,34 +568,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 252,
+                                "id": 266,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "603:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 255,
+                              "id": 269,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 253,
+                                  "id": 267,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "612:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 254,
+                                "id": 268,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -616,18 +616,18 @@
                               "nodeType": "IndexAccess",
                               "src": "603:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 256,
+                            "id": 270,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "Power",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 223,
+                            "referencedDeclaration": 237,
                             "src": "603:26:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -639,7 +639,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "33",
-                            "id": 257,
+                            "id": 271,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -660,14 +660,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 259,
+                        "id": 273,
                         "nodeType": "ExpressionStatement",
                         "src": "603:30:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 266,
+                          "id": 280,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -678,34 +678,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 260,
+                                "id": 274,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "644:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 263,
+                              "id": 277,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 261,
+                                  "id": 275,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "653:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 262,
+                                "id": 276,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -726,18 +726,18 @@
                               "nodeType": "IndexAccess",
                               "src": "644:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 264,
+                            "id": 278,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "CurrentPrice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 225,
+                            "referencedDeclaration": 239,
                             "src": "644:33:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -749,7 +749,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "323535",
-                            "id": 265,
+                            "id": 279,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -770,14 +770,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 267,
+                        "id": 281,
                         "nodeType": "ExpressionStatement",
                         "src": "644:39:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 274,
+                          "id": 288,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -788,34 +788,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 268,
+                                "id": 282,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "694:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 271,
+                              "id": 285,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 269,
+                                  "id": 283,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "703:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 270,
+                                "id": 284,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -836,18 +836,18 @@
                               "nodeType": "IndexAccess",
                               "src": "694:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 272,
+                            "id": 286,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "NextPrice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 227,
+                            "referencedDeclaration": 241,
                             "src": "694:30:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -859,7 +859,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "333835",
-                            "id": 273,
+                            "id": 287,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -880,7 +880,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 275,
+                        "id": 289,
                         "nodeType": "ExpressionStatement",
                         "src": "694:36:1"
                       },
@@ -888,7 +888,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 276,
+                          "id": 290,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -903,8 +903,8 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 236,
-                        "id": 277,
+                        "functionReturnParameters": 250,
+                        "id": 291,
                         "nodeType": "Return",
                         "src": "741:11:1"
                       }
@@ -915,7 +915,7 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "66616c7365",
-                    "id": 280,
+                    "id": 294,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -930,36 +930,36 @@
                     },
                     "value": "false"
                   },
-                  "functionReturnParameters": 236,
-                  "id": 281,
+                  "functionReturnParameters": 250,
+                  "id": 295,
                   "nodeType": "Return",
                   "src": "766:12:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 283,
+            "id": 297,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "FirstUserInitialRod",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 233,
+              "id": 247,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "482:2:1"
             },
             "returnParameters": {
-              "id": 236,
+              "id": 250,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 235,
+                  "id": 249,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 283,
+                  "scope": 297,
                   "src": "500:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -968,7 +968,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 234,
+                    "id": 248,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "500:4:1",
@@ -983,7 +983,7 @@
               ],
               "src": "499:6:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "454:332:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -991,7 +991,7 @@
           },
           {
             "body": {
-              "id": 361,
+              "id": 375,
               "nodeType": "Block",
               "src": "858:424:1",
               "statements": [
@@ -1005,7 +1005,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 293,
+                        "id": 307,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1016,34 +1016,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 287,
+                              "id": 301,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "876:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 290,
+                            "id": 304,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 288,
+                                "id": 302,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "885:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 289,
+                              "id": 303,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1064,18 +1064,18 @@
                             "nodeType": "IndexAccess",
                             "src": "876:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 291,
+                          "id": 305,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Level",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 221,
+                          "referencedDeclaration": 235,
                           "src": "876:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1087,7 +1087,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 292,
+                          "id": 306,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1116,18 +1116,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 286,
+                      "id": 300,
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1046,
+                      "referencedDeclaration": 1060,
                       "src": "869:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 294,
+                    "id": 308,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1141,21 +1141,21 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 295,
+                  "id": 309,
                   "nodeType": "ExpressionStatement",
                   "src": "869:37:1"
                 },
                 {
                   "assignments": [
-                    297
+                    311
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 297,
+                      "id": 311,
                       "name": "Price",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 375,
                       "src": "917:13:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1164,7 +1164,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 296,
+                        "id": 310,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "917:7:1",
@@ -1177,41 +1177,41 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 303,
+                  "id": 317,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 298,
+                        "id": 312,
                         "name": "UsersRod",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 232,
+                        "referencedDeclaration": 246,
                         "src": "933:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                           "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                         }
                       },
-                      "id": 301,
+                      "id": 315,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 299,
+                          "id": 313,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1057,
+                          "referencedDeclaration": 1071,
                           "src": "942:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 300,
+                        "id": 314,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1232,18 +1232,18 @@
                       "nodeType": "IndexAccess",
                       "src": "933:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Rod_$228_storage",
+                        "typeIdentifier": "t_struct$_Rod_$242_storage",
                         "typeString": "struct FishRod.Rod storage ref"
                       }
                     },
-                    "id": 302,
+                    "id": 316,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "NextPrice",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 227,
+                    "referencedDeclaration": 241,
                     "src": "933:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -1256,7 +1256,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 317,
+                    "id": 331,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1267,34 +1267,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 304,
+                          "id": 318,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "974:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 307,
+                        "id": 321,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 305,
+                            "id": 319,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "983:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 306,
+                          "id": 320,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1315,18 +1315,18 @@
                         "nodeType": "IndexAccess",
                         "src": "974:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 308,
+                      "id": 322,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "Level",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 221,
+                      "referencedDeclaration": 235,
                       "src": "974:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1341,7 +1341,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "31",
-                          "id": 315,
+                          "id": 329,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1370,34 +1370,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 309,
+                              "id": 323,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1003:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 312,
+                            "id": 326,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 310,
+                                "id": 324,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1012:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 311,
+                              "id": 325,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1418,39 +1418,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1003:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 313,
+                          "id": 327,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Level",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 221,
+                          "referencedDeclaration": 235,
                           "src": "1003:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 314,
+                        "id": 328,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1003:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 316,
+                      "id": 330,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1470,14 +1470,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 318,
+                  "id": 332,
                   "nodeType": "ExpressionStatement",
                   "src": "974:62:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 332,
+                    "id": 346,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1488,34 +1488,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 319,
+                          "id": 333,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1047:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 322,
+                        "id": 336,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 320,
+                            "id": 334,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1056:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 321,
+                          "id": 335,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1536,18 +1536,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1047:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 323,
+                      "id": 337,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "Power",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 223,
+                      "referencedDeclaration": 237,
                       "src": "1047:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1562,7 +1562,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "32",
-                          "id": 330,
+                          "id": 344,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1591,34 +1591,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 324,
+                              "id": 338,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1076:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 327,
+                            "id": 341,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 325,
+                                "id": 339,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1085:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 326,
+                              "id": 340,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1639,39 +1639,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1076:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 328,
+                          "id": 342,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Power",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 223,
+                          "referencedDeclaration": 237,
                           "src": "1076:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 329,
+                        "id": 343,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1076:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 331,
+                      "id": 345,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1691,14 +1691,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 333,
+                  "id": 347,
                   "nodeType": "ExpressionStatement",
                   "src": "1047:62:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 351,
+                    "id": 365,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1709,34 +1709,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 334,
+                          "id": 348,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1120:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 337,
+                        "id": 351,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 335,
+                            "id": 349,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1129:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 336,
+                          "id": 350,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1757,18 +1757,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1120:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 338,
+                      "id": 352,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "NextPrice",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 227,
+                      "referencedDeclaration": 241,
                       "src": "1120:30:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1786,34 +1786,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 345,
+                              "id": 359,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1188:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 348,
+                            "id": 362,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 346,
+                                "id": 360,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1197:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 347,
+                              "id": 361,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1834,18 +1834,18 @@
                             "nodeType": "IndexAccess",
                             "src": "1188:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 349,
+                          "id": 363,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "CurrentPrice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 225,
+                          "referencedDeclaration": 239,
                           "src": "1188:33:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1866,34 +1866,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 339,
+                              "id": 353,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1153:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 342,
+                            "id": 356,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 340,
+                                "id": 354,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1162:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 341,
+                              "id": 355,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1914,39 +1914,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1153:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 343,
+                          "id": 357,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "NextPrice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 227,
+                          "referencedDeclaration": 241,
                           "src": "1153:30:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 344,
+                        "id": 358,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1153:34:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 350,
+                      "id": 364,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1966,14 +1966,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 352,
+                  "id": 366,
                   "nodeType": "ExpressionStatement",
                   "src": "1120:102:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 359,
+                    "id": 373,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1984,34 +1984,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 353,
+                          "id": 367,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1233:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 356,
+                        "id": 370,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 354,
+                            "id": 368,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1242:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 355,
+                          "id": 369,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2032,18 +2032,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1233:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 357,
+                      "id": 371,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "CurrentPrice",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 225,
+                      "referencedDeclaration": 239,
                       "src": "1233:33:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2054,11 +2054,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 358,
+                      "id": 372,
                       "name": "Price",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 297,
+                      "referencedDeclaration": 311,
                       "src": "1269:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2071,32 +2071,32 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 360,
+                  "id": 374,
                   "nodeType": "ExpressionStatement",
                   "src": "1233:41:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 362,
+            "id": 376,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "UpgradeFishRod",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 284,
+              "id": 298,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "849:2:1"
             },
             "returnParameters": {
-              "id": 285,
+              "id": 299,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "858:0:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "826:456:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -2104,7 +2104,7 @@
           },
           {
             "body": {
-              "id": 388,
+              "id": 402,
               "nodeType": "Block",
               "src": "1378:111:1",
               "statements": [
@@ -2118,34 +2118,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 371,
+                            "id": 385,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1396:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 374,
+                          "id": 388,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 372,
+                              "id": 386,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1405:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 373,
+                            "id": 387,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2166,18 +2166,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1396:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 375,
+                        "id": 389,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "Level",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 221,
+                        "referencedDeclaration": 235,
                         "src": "1396:26:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2190,34 +2190,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 376,
+                            "id": 390,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1423:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 379,
+                          "id": 393,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 377,
+                              "id": 391,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1432:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 378,
+                            "id": 392,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2238,18 +2238,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1423:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 380,
+                        "id": 394,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "Power",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 223,
+                        "referencedDeclaration": 237,
                         "src": "1423:26:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2262,34 +2262,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 381,
+                            "id": 395,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1450:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 384,
+                          "id": 398,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 382,
+                              "id": 396,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1459:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 383,
+                            "id": 397,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2310,18 +2310,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1450:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 385,
+                        "id": 399,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "NextPrice",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 227,
+                        "referencedDeclaration": 241,
                         "src": "1450:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2329,7 +2329,7 @@
                         }
                       }
                     ],
-                    "id": 386,
+                    "id": 400,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -2342,36 +2342,36 @@
                       "typeString": "tuple(uint256,uint256,uint256)"
                     }
                   },
-                  "functionReturnParameters": 370,
-                  "id": 387,
+                  "functionReturnParameters": 384,
+                  "id": 401,
                   "nodeType": "Return",
                   "src": "1389:92:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 389,
+            "id": 403,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "GetRodDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 363,
+              "id": 377,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1310:2:1"
             },
             "returnParameters": {
-              "id": 370,
+              "id": 384,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 365,
+                  "id": 379,
                   "name": "_level",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1333:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2380,7 +2380,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 364,
+                    "id": 378,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1333:7:1",
@@ -2394,10 +2394,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 367,
+                  "id": 381,
                   "name": "_power",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1348:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2406,7 +2406,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 366,
+                    "id": 380,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1348:7:1",
@@ -2420,10 +2420,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 369,
+                  "id": 383,
                   "name": "_price",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1363:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2432,7 +2432,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 368,
+                    "id": 382,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1363:7:1",
@@ -2447,14 +2447,14 @@
               ],
               "src": "1332:46:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "1288:201:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 391,
+        "scope": 405,
         "src": "108:1384:1"
       }
     ],
@@ -2464,14 +2464,14 @@
     "absolutePath": "/E/Hackathon/FishingFrenzy/contracts/FishRod.sol",
     "exportedSymbols": {
       "FishRod": [
-        390
+        404
       ]
     },
-    "id": 391,
+    "id": 405,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 215,
+        "id": 229,
         "literals": [
           "solidity",
           "^",
@@ -2484,10 +2484,10 @@
       {
         "absolutePath": "/E/Hackathon/FishingFrenzy/contracts/SafeMath.sol",
         "file": "./SafeMath.sol",
-        "id": 216,
+        "id": 230,
         "nodeType": "ImportDirective",
-        "scope": 391,
-        "sourceUnit": 1043,
+        "scope": 405,
+        "sourceUnit": 1057,
         "src": "29:24:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2498,31 +2498,31 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 390,
+        "id": 404,
         "linearizedBaseContracts": [
-          390
+          404
         ],
         "name": "FishRod",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 219,
+            "id": 233,
             "libraryName": {
               "contractScope": null,
-              "id": 217,
+              "id": 231,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1042,
+              "referencedDeclaration": 1056,
               "src": "138:8:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$1042",
+                "typeIdentifier": "t_contract$_SafeMath_$1056",
                 "typeString": "library SafeMath"
               }
             },
             "nodeType": "UsingForDirective",
             "src": "132:27:1",
             "typeName": {
-              "id": 218,
+              "id": 232,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "151:7:1",
@@ -2534,14 +2534,14 @@
           },
           {
             "canonicalName": "FishRod.Rod",
-            "id": 228,
+            "id": 242,
             "members": [
               {
                 "constant": false,
-                "id": 221,
+                "id": 235,
                 "name": "Level",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "187:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2550,7 +2550,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 220,
+                  "id": 234,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "187:7:1",
@@ -2564,10 +2564,10 @@
               },
               {
                 "constant": false,
-                "id": 223,
+                "id": 237,
                 "name": "Power",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "211:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2576,7 +2576,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 222,
+                  "id": 236,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "211:7:1",
@@ -2590,10 +2590,10 @@
               },
               {
                 "constant": false,
-                "id": 225,
+                "id": 239,
                 "name": "CurrentPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "235:20:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2602,7 +2602,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 224,
+                  "id": 238,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "235:7:1",
@@ -2616,10 +2616,10 @@
               },
               {
                 "constant": false,
-                "id": 227,
+                "id": 241,
                 "name": "NextPrice",
                 "nodeType": "VariableDeclaration",
-                "scope": 228,
+                "scope": 242,
                 "src": "266:17:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -2628,7 +2628,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 226,
+                  "id": 240,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "266:7:1",
@@ -2643,27 +2643,27 @@
             ],
             "name": "Rod",
             "nodeType": "StructDefinition",
-            "scope": 390,
+            "scope": 404,
             "src": "165:126:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 232,
+            "id": 246,
             "name": "UsersRod",
             "nodeType": "VariableDeclaration",
-            "scope": 390,
+            "scope": 404,
             "src": "374:38:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
               "typeString": "mapping(address => struct FishRod.Rod)"
             },
             "typeName": {
-              "id": 231,
+              "id": 245,
               "keyType": {
-                "id": 229,
+                "id": 243,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "383:7:1",
@@ -2675,18 +2675,18 @@
               "nodeType": "Mapping",
               "src": "374:22:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                 "typeString": "mapping(address => struct FishRod.Rod)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 230,
+                "id": 244,
                 "name": "Rod",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 228,
+                "referencedDeclaration": 242,
                 "src": "392:3:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Rod_$228_storage_ptr",
+                  "typeIdentifier": "t_struct$_Rod_$242_storage_ptr",
                   "typeString": "struct FishRod.Rod"
                 }
               }
@@ -2696,7 +2696,7 @@
           },
           {
             "body": {
-              "id": 282,
+              "id": 296,
               "nodeType": "Block",
               "src": "505:281:1",
               "statements": [
@@ -2707,7 +2707,7 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 243,
+                    "id": 257,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2718,34 +2718,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 237,
+                          "id": 251,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "519:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 240,
+                        "id": 254,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 238,
+                            "id": 252,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "528:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 239,
+                          "id": 253,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2766,18 +2766,18 @@
                         "nodeType": "IndexAccess",
                         "src": "519:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 241,
+                      "id": 255,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "Level",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 221,
+                      "referencedDeclaration": 235,
                       "src": "519:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2789,7 +2789,7 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "30",
-                      "id": 242,
+                      "id": 256,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2811,18 +2811,18 @@
                     }
                   },
                   "falseBody": null,
-                  "id": 279,
+                  "id": 293,
                   "nodeType": "IfStatement",
                   "src": "516:244:1",
                   "trueBody": {
-                    "id": 278,
+                    "id": 292,
                     "nodeType": "Block",
                     "src": "551:209:1",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 250,
+                          "id": 264,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2833,34 +2833,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 244,
+                                "id": 258,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "562:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 247,
+                              "id": 261,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 245,
+                                  "id": 259,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "571:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 246,
+                                "id": 260,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -2881,18 +2881,18 @@
                               "nodeType": "IndexAccess",
                               "src": "562:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 248,
+                            "id": 262,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "Level",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 221,
+                            "referencedDeclaration": 235,
                             "src": "562:26:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -2904,7 +2904,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "31",
-                            "id": 249,
+                            "id": 263,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -2925,14 +2925,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 251,
+                        "id": 265,
                         "nodeType": "ExpressionStatement",
                         "src": "562:30:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 258,
+                          "id": 272,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2943,34 +2943,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 252,
+                                "id": 266,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "603:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 255,
+                              "id": 269,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 253,
+                                  "id": 267,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "612:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 254,
+                                "id": 268,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -2991,18 +2991,18 @@
                               "nodeType": "IndexAccess",
                               "src": "603:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 256,
+                            "id": 270,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "Power",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 223,
+                            "referencedDeclaration": 237,
                             "src": "603:26:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3014,7 +3014,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "33",
-                            "id": 257,
+                            "id": 271,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3035,14 +3035,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 259,
+                        "id": 273,
                         "nodeType": "ExpressionStatement",
                         "src": "603:30:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 266,
+                          "id": 280,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3053,34 +3053,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 260,
+                                "id": 274,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "644:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 263,
+                              "id": 277,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 261,
+                                  "id": 275,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "653:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 262,
+                                "id": 276,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3101,18 +3101,18 @@
                               "nodeType": "IndexAccess",
                               "src": "644:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 264,
+                            "id": 278,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "CurrentPrice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 225,
+                            "referencedDeclaration": 239,
                             "src": "644:33:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3124,7 +3124,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "323535",
-                            "id": 265,
+                            "id": 279,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3145,14 +3145,14 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 267,
+                        "id": 281,
                         "nodeType": "ExpressionStatement",
                         "src": "644:39:1"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 274,
+                          "id": 288,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3163,34 +3163,34 @@
                               "argumentTypes": null,
                               "baseExpression": {
                                 "argumentTypes": null,
-                                "id": 268,
+                                "id": 282,
                                 "name": "UsersRod",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 232,
+                                "referencedDeclaration": 246,
                                 "src": "694:8:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                   "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                                 }
                               },
-                              "id": 271,
+                              "id": 285,
                               "indexExpression": {
                                 "argumentTypes": null,
                                 "expression": {
                                   "argumentTypes": null,
-                                  "id": 269,
+                                  "id": 283,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 1057,
+                                  "referencedDeclaration": 1071,
                                   "src": "703:3:1",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_magic_message",
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 270,
+                                "id": 284,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3211,18 +3211,18 @@
                               "nodeType": "IndexAccess",
                               "src": "694:20:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Rod_$228_storage",
+                                "typeIdentifier": "t_struct$_Rod_$242_storage",
                                 "typeString": "struct FishRod.Rod storage ref"
                               }
                             },
-                            "id": 272,
+                            "id": 286,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "NextPrice",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 227,
+                            "referencedDeclaration": 241,
                             "src": "694:30:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -3234,7 +3234,7 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "333835",
-                            "id": 273,
+                            "id": 287,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -3255,7 +3255,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 275,
+                        "id": 289,
                         "nodeType": "ExpressionStatement",
                         "src": "694:36:1"
                       },
@@ -3263,7 +3263,7 @@
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 276,
+                          "id": 290,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3278,8 +3278,8 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 236,
-                        "id": 277,
+                        "functionReturnParameters": 250,
+                        "id": 291,
                         "nodeType": "Return",
                         "src": "741:11:1"
                       }
@@ -3290,7 +3290,7 @@
                   "expression": {
                     "argumentTypes": null,
                     "hexValue": "66616c7365",
-                    "id": 280,
+                    "id": 294,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -3305,36 +3305,36 @@
                     },
                     "value": "false"
                   },
-                  "functionReturnParameters": 236,
-                  "id": 281,
+                  "functionReturnParameters": 250,
+                  "id": 295,
                   "nodeType": "Return",
                   "src": "766:12:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 283,
+            "id": 297,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "FirstUserInitialRod",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 233,
+              "id": 247,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "482:2:1"
             },
             "returnParameters": {
-              "id": 236,
+              "id": 250,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 235,
+                  "id": 249,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 283,
+                  "scope": 297,
                   "src": "500:4:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3343,7 +3343,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 234,
+                    "id": 248,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "500:4:1",
@@ -3358,7 +3358,7 @@
               ],
               "src": "499:6:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "454:332:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -3366,7 +3366,7 @@
           },
           {
             "body": {
-              "id": 361,
+              "id": 375,
               "nodeType": "Block",
               "src": "858:424:1",
               "statements": [
@@ -3380,7 +3380,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 293,
+                        "id": 307,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3391,34 +3391,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 287,
+                              "id": 301,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "876:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 290,
+                            "id": 304,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 288,
+                                "id": 302,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "885:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 289,
+                              "id": 303,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3439,18 +3439,18 @@
                             "nodeType": "IndexAccess",
                             "src": "876:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 291,
+                          "id": 305,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Level",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 221,
+                          "referencedDeclaration": 235,
                           "src": "876:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -3462,7 +3462,7 @@
                         "rightExpression": {
                           "argumentTypes": null,
                           "hexValue": "30",
-                          "id": 292,
+                          "id": 306,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3491,18 +3491,18 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 286,
+                      "id": 300,
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1046,
+                      "referencedDeclaration": 1060,
                       "src": "869:6:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 294,
+                    "id": 308,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3516,21 +3516,21 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 295,
+                  "id": 309,
                   "nodeType": "ExpressionStatement",
                   "src": "869:37:1"
                 },
                 {
                   "assignments": [
-                    297
+                    311
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 297,
+                      "id": 311,
                       "name": "Price",
                       "nodeType": "VariableDeclaration",
-                      "scope": 361,
+                      "scope": 375,
                       "src": "917:13:1",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -3539,7 +3539,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 296,
+                        "id": 310,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "917:7:1",
@@ -3552,41 +3552,41 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 303,
+                  "id": 317,
                   "initialValue": {
                     "argumentTypes": null,
                     "expression": {
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 298,
+                        "id": 312,
                         "name": "UsersRod",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 232,
+                        "referencedDeclaration": 246,
                         "src": "933:8:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                           "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                         }
                       },
-                      "id": 301,
+                      "id": 315,
                       "indexExpression": {
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 299,
+                          "id": 313,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1057,
+                          "referencedDeclaration": 1071,
                           "src": "942:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 300,
+                        "id": 314,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3607,18 +3607,18 @@
                       "nodeType": "IndexAccess",
                       "src": "933:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Rod_$228_storage",
+                        "typeIdentifier": "t_struct$_Rod_$242_storage",
                         "typeString": "struct FishRod.Rod storage ref"
                       }
                     },
-                    "id": 302,
+                    "id": 316,
                     "isConstant": false,
                     "isLValue": true,
                     "isPure": false,
                     "lValueRequested": false,
                     "memberName": "NextPrice",
                     "nodeType": "MemberAccess",
-                    "referencedDeclaration": 227,
+                    "referencedDeclaration": 241,
                     "src": "933:30:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -3631,7 +3631,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 317,
+                    "id": 331,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3642,34 +3642,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 304,
+                          "id": 318,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "974:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 307,
+                        "id": 321,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 305,
+                            "id": 319,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "983:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 306,
+                          "id": 320,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3690,18 +3690,18 @@
                         "nodeType": "IndexAccess",
                         "src": "974:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 308,
+                      "id": 322,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "Level",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 221,
+                      "referencedDeclaration": 235,
                       "src": "974:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3716,7 +3716,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "31",
-                          "id": 315,
+                          "id": 329,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3745,34 +3745,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 309,
+                              "id": 323,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1003:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 312,
+                            "id": 326,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 310,
+                                "id": 324,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1012:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 311,
+                              "id": 325,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3793,39 +3793,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1003:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 313,
+                          "id": 327,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Level",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 221,
+                          "referencedDeclaration": 235,
                           "src": "1003:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 314,
+                        "id": 328,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1003:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 316,
+                      "id": 330,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3845,14 +3845,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 318,
+                  "id": 332,
                   "nodeType": "ExpressionStatement",
                   "src": "974:62:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 332,
+                    "id": 346,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3863,34 +3863,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 319,
+                          "id": 333,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1047:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 322,
+                        "id": 336,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 320,
+                            "id": 334,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1056:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 321,
+                          "id": 335,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3911,18 +3911,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1047:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 323,
+                      "id": 337,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "Power",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 223,
+                      "referencedDeclaration": 237,
                       "src": "1047:26:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3937,7 +3937,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "32",
-                          "id": 330,
+                          "id": 344,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3966,34 +3966,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 324,
+                              "id": 338,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1076:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 327,
+                            "id": 341,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 325,
+                                "id": 339,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1085:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 326,
+                              "id": 340,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4014,39 +4014,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1076:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 328,
+                          "id": 342,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "Power",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 223,
+                          "referencedDeclaration": 237,
                           "src": "1076:26:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 329,
+                        "id": 343,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1076:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 331,
+                      "id": 345,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4066,14 +4066,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 333,
+                  "id": 347,
                   "nodeType": "ExpressionStatement",
                   "src": "1047:62:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 351,
+                    "id": 365,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4084,34 +4084,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 334,
+                          "id": 348,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1120:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 337,
+                        "id": 351,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 335,
+                            "id": 349,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1129:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 336,
+                          "id": 350,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4132,18 +4132,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1120:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 338,
+                      "id": 352,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "NextPrice",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 227,
+                      "referencedDeclaration": 241,
                       "src": "1120:30:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4161,34 +4161,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 345,
+                              "id": 359,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1188:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 348,
+                            "id": 362,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 346,
+                                "id": 360,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1197:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 347,
+                              "id": 361,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4209,18 +4209,18 @@
                             "nodeType": "IndexAccess",
                             "src": "1188:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 349,
+                          "id": 363,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "CurrentPrice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 225,
+                          "referencedDeclaration": 239,
                           "src": "1188:33:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -4241,34 +4241,34 @@
                             "argumentTypes": null,
                             "baseExpression": {
                               "argumentTypes": null,
-                              "id": 339,
+                              "id": 353,
                               "name": "UsersRod",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 232,
+                              "referencedDeclaration": 246,
                               "src": "1153:8:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                                 "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                               }
                             },
-                            "id": 342,
+                            "id": 356,
                             "indexExpression": {
                               "argumentTypes": null,
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 340,
+                                "id": 354,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1057,
+                                "referencedDeclaration": 1071,
                                 "src": "1162:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 341,
+                              "id": 355,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -4289,39 +4289,39 @@
                             "nodeType": "IndexAccess",
                             "src": "1153:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Rod_$228_storage",
+                              "typeIdentifier": "t_struct$_Rod_$242_storage",
                               "typeString": "struct FishRod.Rod storage ref"
                             }
                           },
-                          "id": 343,
+                          "id": 357,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "NextPrice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 227,
+                          "referencedDeclaration": 241,
                           "src": "1153:30:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 344,
+                        "id": 358,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 936,
+                        "referencedDeclaration": 950,
                         "src": "1153:34:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                           "typeString": "function (uint256,uint256) pure returns (uint256)"
                         }
                       },
-                      "id": 350,
+                      "id": 364,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -4341,14 +4341,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 352,
+                  "id": 366,
                   "nodeType": "ExpressionStatement",
                   "src": "1120:102:1"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 359,
+                    "id": 373,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4359,34 +4359,34 @@
                         "argumentTypes": null,
                         "baseExpression": {
                           "argumentTypes": null,
-                          "id": 353,
+                          "id": 367,
                           "name": "UsersRod",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 232,
+                          "referencedDeclaration": 246,
                           "src": "1233:8:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                             "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                           }
                         },
-                        "id": 356,
+                        "id": 370,
                         "indexExpression": {
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 354,
+                            "id": 368,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1057,
+                            "referencedDeclaration": 1071,
                             "src": "1242:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 355,
+                          "id": 369,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -4407,18 +4407,18 @@
                         "nodeType": "IndexAccess",
                         "src": "1233:20:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Rod_$228_storage",
+                          "typeIdentifier": "t_struct$_Rod_$242_storage",
                           "typeString": "struct FishRod.Rod storage ref"
                         }
                       },
-                      "id": 357,
+                      "id": 371,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "CurrentPrice",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 225,
+                      "referencedDeclaration": 239,
                       "src": "1233:33:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4429,11 +4429,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 358,
+                      "id": 372,
                       "name": "Price",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 297,
+                      "referencedDeclaration": 311,
                       "src": "1269:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4446,32 +4446,32 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 360,
+                  "id": 374,
                   "nodeType": "ExpressionStatement",
                   "src": "1233:41:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 362,
+            "id": 376,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "UpgradeFishRod",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 284,
+              "id": 298,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "849:2:1"
             },
             "returnParameters": {
-              "id": 285,
+              "id": 299,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "858:0:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "826:456:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -4479,7 +4479,7 @@
           },
           {
             "body": {
-              "id": 388,
+              "id": 402,
               "nodeType": "Block",
               "src": "1378:111:1",
               "statements": [
@@ -4493,34 +4493,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 371,
+                            "id": 385,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1396:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 374,
+                          "id": 388,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 372,
+                              "id": 386,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1405:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 373,
+                            "id": 387,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4541,18 +4541,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1396:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 375,
+                        "id": 389,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "Level",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 221,
+                        "referencedDeclaration": 235,
                         "src": "1396:26:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4565,34 +4565,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 376,
+                            "id": 390,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1423:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 379,
+                          "id": 393,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 377,
+                              "id": 391,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1432:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 378,
+                            "id": 392,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4613,18 +4613,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1423:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 380,
+                        "id": 394,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "Power",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 223,
+                        "referencedDeclaration": 237,
                         "src": "1423:26:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4637,34 +4637,34 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 381,
+                            "id": 395,
                             "name": "UsersRod",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 232,
+                            "referencedDeclaration": 246,
                             "src": "1450:8:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$228_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Rod_$242_storage_$",
                               "typeString": "mapping(address => struct FishRod.Rod storage ref)"
                             }
                           },
-                          "id": 384,
+                          "id": 398,
                           "indexExpression": {
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 382,
+                              "id": 396,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1057,
+                              "referencedDeclaration": 1071,
                               "src": "1459:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
                                 "typeString": "msg"
                               }
                             },
-                            "id": 383,
+                            "id": 397,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -4685,18 +4685,18 @@
                           "nodeType": "IndexAccess",
                           "src": "1450:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Rod_$228_storage",
+                            "typeIdentifier": "t_struct$_Rod_$242_storage",
                             "typeString": "struct FishRod.Rod storage ref"
                           }
                         },
-                        "id": 385,
+                        "id": 399,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "NextPrice",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 227,
+                        "referencedDeclaration": 241,
                         "src": "1450:30:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4704,7 +4704,7 @@
                         }
                       }
                     ],
-                    "id": 386,
+                    "id": 400,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -4717,36 +4717,36 @@
                       "typeString": "tuple(uint256,uint256,uint256)"
                     }
                   },
-                  "functionReturnParameters": 370,
-                  "id": 387,
+                  "functionReturnParameters": 384,
+                  "id": 401,
                   "nodeType": "Return",
                   "src": "1389:92:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 389,
+            "id": 403,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "GetRodDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 363,
+              "id": 377,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1310:2:1"
             },
             "returnParameters": {
-              "id": 370,
+              "id": 384,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 365,
+                  "id": 379,
                   "name": "_level",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1333:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4755,7 +4755,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 364,
+                    "id": 378,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1333:7:1",
@@ -4769,10 +4769,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 367,
+                  "id": 381,
                   "name": "_power",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1348:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4781,7 +4781,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 366,
+                    "id": 380,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1348:7:1",
@@ -4795,10 +4795,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 369,
+                  "id": 383,
                   "name": "_price",
                   "nodeType": "VariableDeclaration",
-                  "scope": 389,
+                  "scope": 403,
                   "src": "1363:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4807,7 +4807,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 368,
+                    "id": 382,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1363:7:1",
@@ -4822,14 +4822,14 @@
               ],
               "src": "1332:46:1"
             },
-            "scope": 390,
+            "scope": 404,
             "src": "1288:201:1",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 391,
+        "scope": 405,
         "src": "108:1384:1"
       }
     ],
@@ -4841,7 +4841,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-10-06T08:22:11.408Z",
+  "updatedAt": "2019-10-06T09:37:56.365Z",
   "devdoc": {
     "methods": {}
   },
