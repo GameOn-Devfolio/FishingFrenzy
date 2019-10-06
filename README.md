@@ -60,7 +60,7 @@ chmod +x ./geth.sh
 ./genesisInit.sh
 ./geth.sh
 cd ..
-truffle migrate
+truffle migrate --network matic --reset
 ```
 
 
