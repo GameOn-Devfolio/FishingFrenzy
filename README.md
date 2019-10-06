@@ -1,15 +1,19 @@
 # FishingFrenzy 
 [Live Link](https://fishingfrenzy-rinkeby.netlify.com/)
 
+To view in Matic explorer:
+Deployed Contract Address: 0x70Bb0D7FAdAB5ecdc2A636462200eC71e47331b4
+
+[Matic Explorer Link](https://explorer.testnet2.matic.network/address/0x70bb0d7fadab5ecdc2a636462200ec71e47331b4/transactions)
 
 
 [Video Demo](https://youtu.be/SnMnXaY3r0M)
 
+*Please refer to the [PDF](https://github.com/GameOn-Devfolio/FishingFrenzy/blob/master/FishingFrenzy-GameOasis.pdf) for updated documentation regarding the application!*
 
 
-
-FishingFrenzy is a multiplayer game, a decentralized application based on smart contracts running in Ethereum blockchain.
-Players can collecting, fighting and growing crypto fish tokens to dominate the “decentralized FrenzyVerse”. Each Fish has a unique name, a unique image and unique characteristics as a ERC-721 token stored in the ethereum network that can be sold or transferred just like any other cryptocurrency.
+FishingFrenzy is a multiplayer game, built as a decentralized application on the Ethereum blockchain.
+Players can collect (by fishing), fight (battle) and grow (breeding) crypto-fish tokens to dominate the “decentralized FrenzyVerse” (in development). Each Fish has a unique name, a unique image and unique characteristics as an ERC-721 token (to be developed) stored in the Ethereum network that can be sold or transferred just like any other NFT.
 
 ## Requirements
 
@@ -26,8 +30,8 @@ Players can collecting, fighting and growing crypto fish tokens to dominate the 
 **Step 1:** Download the repostory using the command:
 
 ```
- git clone "https://gitlab.com/ced_b3_projects/ced-b3-g06.git"
- cd ced-b3-g06
+ git clone "git@github.com:GameOn-Devfolio/FishingFrenzy.git"
+ cd FishingFrenzy
 ```
 
 **Step 2:** Install the dependecies using the command:
@@ -35,9 +39,12 @@ Players can collecting, fighting and growing crypto fish tokens to dominate the 
 ```
  npm Install
 ```
-**Step 3:** Use the following command to runing Smart Contract:
+**Step 3:** Use the following command to run Smart Contract (follow one of the below, and then move to Step 4):
 
-
+**Run On Matic **
+```
+truffle migrate --network matic --reset
+```
 
 **Run On Private Network**
 
@@ -60,7 +67,7 @@ chmod +x ./geth.sh
 ./genesisInit.sh
 ./geth.sh
 cd ..
-truffle migrate --network matic --reset
+truffle migrate --reset
 ```
 
 
@@ -120,7 +127,7 @@ truffle test ./test/FishingFrenzy.js
 ```
 
 
-Depolyed Contract of Ropsten Network: 0x9ae312022f9ec4b706d79b2AFcadf749f2E0EeD7
+Deployed Contract of Ropsten Network: 0x9ae312022f9ec4b706d79b2AFcadf749f2E0EeD7
 
 
 [Ropsten Live Link](https://fishingfrenzy-rinkeby.netlify.com/)
