@@ -21,11 +21,10 @@ export class PlayGroundComponent implements OnInit {
     price: 0,
     onOrder: false
   };
-  constructor( 
+  constructor(
     private _appService: AppService,
     private _fishService: FishService
-    ) {
-  }
+  ) {}
   Contract = this._appService.getFrenzyFishContract();
 
   ngOnInit() {
@@ -36,29 +35,32 @@ export class PlayGroundComponent implements OnInit {
   }
   //Code For Fishing
   play = () => {
-      this.Contract.methods
-        .Fishing()
-        .send({
-          from: this.account,
-          gas: 5000000
-        })
-        .then(() => {
-          this.listNewFish();
-        });
-  }
+    this.Contract.methods
+      .Fishing()
+      .send({
+        from: this.account,
+        gas: 5000000
+      })
+      .then(() => {
+        this.listNewFish();
+      });
+  };
   //Display Last ArrayFish
   listNewFish = () => {
     this.Contract.methods
-    .ListAllFishes()
-    .call({from: this.account})
-    .then(address => {
-      this.Contract.methods
-      .GetFishDetails(address[address.length - 1])
-      .call({from: this.account})
-      .then(fish => {
-      this.newFish = this._fishService.listFish(address.length - 1, address[address.length - 1], fish);
-    }
-    );
-});
-  }
+      .ListAllFishes()
+      .call({ from: this.account })
+      .then(address => {
+        this.Contract.methods
+          .GetFishDetails(address[address.length - 1])
+          .call({ from: this.account })
+          .then(fish => {
+            this.newFish = this._fishService.listFish(
+              address.length - 1,
+              address[address.length - 1],
+              fish
+            );
+          });
+      });
+  };
 }

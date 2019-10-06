@@ -31,7 +31,7 @@ contract Fish  {
         ThisFish.OnOrder = false;
     }
 //rarity is selected 
-    function Rarity() public returns(uint256)  {
+    function Rarity() public view returns(uint256)  {
         uint256 rNumber = Rand(1,10);
         if(rNumber <= 5){
             return 1;
@@ -49,7 +49,7 @@ contract Fish  {
         //     return 1;
         // }
     }
-    function Weight(uint256 _fishRodLevel) public returns(uint256)  {
+    function Weight(uint256 _fishRodLevel) public  view returns(uint256)  {
         return(Rand(1,_fishRodLevel*3));
         //return _fishRodLevel.add(now.mod((_fishRodLevel*3)-1));
     }
@@ -59,9 +59,8 @@ contract Fish  {
     function GetDetails() public view returns(uint256,uint256,uint256,bool){
         return(ThisFish.Rarity,ThisFish.Weight,ThisFish.Price,ThisFish.OnOrder);
     }
-    function Rand(uint256 min, uint256 max) internal returns(uint256){
-        nonce++;
-        return(uint256(keccak256(abi.encodePacked(nonce)))%(min+max)-min);
+    function Rand(uint256 min, uint256 max) public view returns(uint256){
+        return(uint256(keccak256(abi.encodePacked(now)))%(max-min)+min);
     }
     function GetOrderStatus() public view returns(bool){
         return(ThisFish.OnOrder);
