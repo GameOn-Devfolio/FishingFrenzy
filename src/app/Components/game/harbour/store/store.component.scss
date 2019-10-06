@@ -1,0 +1,36 @@
+.example-small-box,
+.example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: 100px;
+  width: 100px;
+}
+
+.example-large-box {
+  height: 100px;
+  width: 100px;
+}
+.market {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.allfish {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.example-card {
+  max-width: 200px;
+  margin-bottom: 10px;
+}

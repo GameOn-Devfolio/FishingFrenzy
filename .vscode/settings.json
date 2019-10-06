@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "struct",
+        "uint"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#2E2A47",
+        "titleBar.activeBackground": "#413A64",
+        "titleBar.activeForeground": "#FBFAFC"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}

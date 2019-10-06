@@ -1,0 +1,63 @@
+<div class="play">
+  <div class="left">
+    <div class="buts">
+      <button (click)="play()" mat-fab color="warn">Play</button>
+    </div>
+  </div>
+
+  <div class="right">
+    <mat-card *ngIf="!(newFish.fish=='')" class="example-card">
+      <mat-card-header> </mat-card-header>
+      <img
+      *ngIf="newFish.rarity == 1"
+      mat-card-image
+      src="http://wearecodex.com/steem-avatars/avatar-minnow.php?seed={{
+        newFish.fish
+      }}"
+      alt="Fish"
+    />
+    <img
+      *ngIf="newFish.rarity == 2"
+      mat-card-image
+      src="http://wearecodex.com/steem-avatars/avatar-orca.php?seed={{
+        newFish.fish
+      }}"
+      alt="Fish"
+    />
+    <img
+      *ngIf="newFish.rarity == 3"
+      mat-card-image
+      src="http://wearecodex.com/steem-avatars/avatar-dolphin.php?seed={{
+        newFish.fish
+      }}"
+      alt="Fish"
+    />
+      <mat-card-content>
+        <div class="properties">
+          <mat-grid-list cols="1" rowHeight="30px">
+            <mat-grid-tile>
+              <p *ngIf="newFish.rarity == 1">Common</p>
+              <p *ngIf="newFish.rarity == 2">Rare</p>
+              <p *ngIf="newFish.rarity == 3">Epic</p>
+            </mat-grid-tile>
+            <mat-grid-tile>
+              <p>Weight : {{ newFish.weight }}</p>
+            </mat-grid-tile>
+            <mat-grid-tile>
+              <p>Price : {{ newFish.price }}</p>
+            </mat-grid-tile>
+            <mat-grid-tile>
+              <button
+                mat-raised-button
+                color="primary"
+                [routerLink]="['/Harbour/Store']"
+              >
+                View in Store
+              </button>
+            </mat-grid-tile>
+          </mat-grid-list>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,96 @@
+<mat-tab-group dynamicHeight mat-align-tabs="center" animationDuration="2000ms">
+  <div class="market">
+    <mat-tab label="Fish Store">
+      <div class="allfish">
+        <mat-card *ngFor="let fish of fishes" class="example-card">
+          <div  class="fish">
+          <img
+            *ngIf="fish.rarity == 1"
+            mat-card-image
+            src="http://wearecodex.com/steem-avatars/avatar-minnow.php?seed={{
+              fish.fish
+            }}"
+            alt="Fish"
+          />
+          <img
+            *ngIf="fish.rarity == 2"
+            mat-card-image
+            src="http://wearecodex.com/steem-avatars/avatar-orca.php?seed={{
+              fish.fish
+            }}"
+            alt="Fish"
+          />
+          <img
+            *ngIf="fish.rarity == 3"
+            mat-card-image
+            src="http://wearecodex.com/steem-avatars/avatar-dolphin.php?seed={{
+              fish.fish
+            }}"
+            alt="Fish"
+          />
+          <mat-card-content>
+            <div class="properties">
+              <mat-grid-list cols="1" rowHeight="30px">
+                <mat-grid-tile>
+                  <p *ngIf="fish.rarity == 1">Common</p>
+                  <p *ngIf="fish.rarity == 2">Rare</p>
+                  <p *ngIf="fish.rarity == 3">Epic</p>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                  <p>Weight : {{ fish.weight }}</p>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                  <p>Price : {{ fish.price }}</p>
+                </mat-grid-tile>
+                <mat-grid-tile>
+                  <button mat-raised-button (click)="sellFish(fish)" color="primary">Sell</button>
+                  <button mat-raised-button (click)="recharge(fish)" color="primary">Recharge</button>
+                </mat-grid-tile>
+              </mat-grid-list>
+            </div>
+          </mat-card-content>
+        </div>
+        </mat-card>
+      </div>
+    </mat-tab>
+
+    <mat-tab label="FishRod Store">
+      <mat-card class="example-card">
+        <mat-card-header> </mat-card-header>
+        <img
+          mat-card-image
+          src="../../../../../assets/FishingRod.png"
+          alt="FishRod"
+        />
+        <mat-card-content>
+          <div class="properties">
+            <mat-grid-list cols="1" rowHeight="30px">
+              <mat-grid-tile>
+                <p>Level : {{rod._level}}</p>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                <p>Power : {{rod._power}}</p>
+              </mat-grid-tile>
+              <mat-grid-tile>
+                <button *ngIf="rod._level==0"
+                  (click)="firstFishRod()"
+                  mat-raised-button
+                  color="primary"
+                >
+                  Initial
+                </button>
+                <button *ngIf="rod._level!=0"
+                  (click)="upgradeFishrod()"
+                  mat-raised-button
+                  color="primary"
+                >
+                  Upgrade {{rod._price}}
+                </button>
+              </mat-grid-tile>
+            </mat-grid-list>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-tab>
+  </div>
+</mat-tab-group>

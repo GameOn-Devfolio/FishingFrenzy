@@ -1,0 +1,53 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    [ngClass]="{ hideSideNav: !(isHandset$ | async) }"
+    fixedInViewport="false"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(isHandset$ | async) === false"
+  >
+    <mat-toolbar>Menu </mat-toolbar>
+    <mat-nav-list *ngIf="ContentType === 1">
+      <a mat-list-item routerLink="/Home">Home</a>
+      <a mat-list-item routerLink="/Home/About">About</a>
+    </mat-nav-list>
+    <mat-nav-list *ngIf="ContentType === 2">
+      <a mat-list-item routerLink="/Harbour">Harbour</a>
+      <a mat-list-item id="logOut" (click)="logOut()">Logout</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+      >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>Fishing Frenzy</span>
+      <span class="spacer"></span>
+      <div
+        [ngClass]="{ hideDesktopLinks: isHandset$ | async }"
+        class="desktopLinks"
+      >
+        <div *ngIf="ContentType === 1">
+          <a mat-list-item routerLink="/Home">Home</a>
+          <a mat-list-item routerLink="/Home/About">About</a>
+        </div>
+        <div *ngIf="ContentType === 2">
+          <a mat-list-item routerLink="/Harbour">Harbour</a>
+          <a mat-list-item id="logOut" (click)="logOut()">Logout</a>
+        </div>
+      </div>
+    </mat-toolbar>
+    <app-background-animation></app-background-animation>
+    <ng-content></ng-content>
+
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>
