@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AppService } from 'src/app/Services/app/app.service';
 import { FishModel } from 'src/app/Models/fish.model';
 import { FishService } from 'src/app/Services/fish/fish.service';
+import celerx from 'src/assets/js/celerx.js';
 declare let window: any;
 declare let web3: any;
 declare let require: any;
@@ -28,6 +29,7 @@ export class PlayGroundComponent implements OnInit {
   Contract = this._appService.getFrenzyFishContract();
 
   ngOnInit() {
+    const match = celerx.getMatch();
     this._appService.currentAccount.subscribe(accs => {
       this.account = accs;
       this.listNewFish();
@@ -55,6 +57,7 @@ export class PlayGroundComponent implements OnInit {
           .GetFishDetails(address[address.length - 1])
           .call({ from: this.account })
           .then(fish => {
+            celerx.submitScore(fish._price);
             this.newFish = this._fishService.listFish(
               address.length - 1,
               address[address.length - 1],
